@@ -30,8 +30,13 @@ migrate_working_dir/
 .flutter-plugins-dependencies
 .pub-cache/
 .pub/
-/build/
-/coverage/
+build/
+coverage/
+
+# Environment files (VERY IMPORTANT)
+.env
+*.env
+dotenv.env
 
 # Symbolication related
 app.*.symbols
@@ -39,7 +44,7 @@ app.*.symbols
 # Obfuscation related
 app.*.map.json
 
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
+# Android Studio build artifacts
+android/app/debug
+android/app/profile
+android/app/release
